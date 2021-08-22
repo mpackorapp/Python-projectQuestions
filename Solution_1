@@ -1,0 +1,7 @@
+m = [[1, 'a', ['cat'], 2], [[[3]], 'dog'], 4, 5]
+
+def flatten(*args):
+    return [result for element in args for result in 
+            (flatten(*element) if isinstance(element, list) else (element,))]
+
+print(flatten(m))
