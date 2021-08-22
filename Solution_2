@@ -1,7 +1,9 @@
 def Reverse(lst):
     def islist(l): 
         return isinstance(l, list)
+        
     new_list = []
+    
     for e in lst:
         if isinstance(e, list):
             new_list.append(Reverse(e))
