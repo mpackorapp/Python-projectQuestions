@@ -1,1 +1,1 @@
-It contains solutions to the project questions of Kodluyoruz.org on Python.
+It contains solutions to the project questions of Python Course on Kodluyoruz.org.
